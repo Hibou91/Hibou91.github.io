@@ -1,0 +1,9 @@
+html{
+  overflow-y: auto;
+}
+
+.section-bg{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+}
