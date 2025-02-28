@@ -89,6 +89,8 @@ export default {
 
 .section-bio-bg {
     background-image: url("/main/bio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
