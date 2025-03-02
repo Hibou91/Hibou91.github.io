@@ -1,5 +1,8 @@
 <template>
-    <div id="propgrammerbio" class="section-bg section-bio-bg">
+    <div id="propgrammerbio" class="section-bg section-bio-bg" >
+        <div class="section-bio-fg">
+
+        </div>
         <div class="d-flex justify-space-around">
             <div>
 
@@ -88,9 +91,20 @@ export default {
 }
 
 .section-bio-bg {
-    background-image: url("/main/bio.jpg");
+    background-image: url("/main/bio_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-bio-fg {
+    background-image: url("/main/bio_fg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
